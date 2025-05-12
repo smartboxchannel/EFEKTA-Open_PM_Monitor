@@ -1,0 +1,214 @@
+{
+  "name": "Датчик Open PM Monitor",
+  "manufacturer": "EfektaLab_for_you",
+  "model": "Open_PM_Monitor",
+  "manufacturerId": "(EfektaLab|EfektaLab_for_Zigbee-Shop.ru)",
+  "modelId": "Open_PM_Monitor",
+  "catalogId": -1,
+  "status": "Test",
+  "template": [
+    "/_Light/BindOnBrightness.json"
+  ],
+  "init": [
+     {
+      "zcl": [
+		{
+          "endpoint": 2,
+          "cluster": "042A_PM25",
+          "attribute": "0601_Custom",
+          "zclDataType": "FLOAT_32_BIT"
+        },
+		{
+          "endpoint": 2,
+          "cluster": "042A_PM25",
+          "attribute": "0602_Custom",
+          "zclDataType": "FLOAT_32_BIT"
+        },
+		{
+          "endpoint": 2,
+          "cluster": "042A_PM25",
+          "attribute": "0604_Custom",
+          "zclDataType": "FLOAT_32_BIT"
+        },
+		{
+          "endpoint": 2,
+          "cluster": "042A_PM25",
+          "attribute": "0333_Custom",
+          "zclDataType": "SIGNED_8_BIT_INTEGER"
+        }
+      ]
+    },
+	{
+      "link": {
+        "endpoint": 2,
+        "cluster": "042A_PM25",
+        "attribute": "0000_MeasuredValue"
+      },
+      "bind": true,
+      "report": {
+        "min": 20,
+        "max": 3600,
+        "change": 1
+      }
+    },
+	{
+      "link": {
+        "endpoint": 2,
+        "cluster": "042A_PM25",
+		"attribute": "0601_Custom"
+      },
+      "bind": true,
+      "report": {
+        "min": 20,
+        "max": 3600,
+        "change": 1
+      }
+    },
+	{
+      "link": {
+        "endpoint": 2,
+        "cluster": "042A_PM25",
+		"attribute": "0602_Custom"
+      },
+      "bind": true,
+      "report": {
+        "min": 20,
+        "max": 3600,
+        "change": 1
+      }
+    },
+	{
+      "link": {
+        "endpoint": 2,
+        "cluster": "042A_PM25",
+		"attribute": "0604_Custom"
+      },
+      "bind": true,
+      "report": {
+        "min": 20,
+        "max": 3600,
+        "change": 1
+      }
+    }
+  ],
+  "services": [
+    {
+      "type": "AirQualitySensor",
+	  "name": "Датчик PM 2.5",
+      "logics": [
+        {
+          "type": "AirQualityFromPM2_5Density"
+        }
+      ],
+      "characteristics": [
+        {
+          "type": "PM2_5Density",
+          "link": [
+            {
+			  "type": "Double",
+              "endpoint": 2,
+              "cluster": "042A_PM25",
+              "attribute": "0000_MeasuredValue"
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "type": "AirQualitySensor",
+	  "name": "Датчик PM 1",
+      "logics": [
+        {
+          "type": "AirQualityFromPM2_5Density"
+        }
+      ],
+      "characteristics": [
+        {
+          "type": "PM2_5Density",
+          "link": [
+            {
+			  "type": "Double",
+              "endpoint": 2,
+              "cluster": "042A_PM25",
+              "attribute": "0601_Custom"
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "type": "AirQualitySensor",
+	  "name": "Датчик PM 10",
+      "logics": [
+        {
+          "type": "AirQualityFromPM10Density"
+        }
+      ],
+      "characteristics": [
+        {
+          "type": "PM10Density",
+          "link": [
+            {
+			  "type": "Double",
+              "endpoint": 2,
+              "cluster": "042A_PM25",
+              "attribute": "0602_Custom"
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "type": "AirQualitySensor",
+	  "name": "Датчик AQI",
+      "logics": [
+        {
+          "type": "AirQualityFromC_AQIDensity"
+        }
+      ],
+      "characteristics": [
+        {
+          "type": "C_AQIDensity",
+          "link": [
+            {
+			  "type": "Double",
+              "endpoint": 2,
+              "cluster": "042A_PM25",
+              "attribute": "0604_Custom"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "options": [
+    {
+        "link": {
+          "endpoint": 1,
+          "cluster": "0003_Identify",
+          "attribute": "0000_IdentifyTime"
+        },
+        "name": "Идентификация устройства",
+		"description": "На датчике загорится светодиод",
+        "type": "Integer",
+		"unit": "сек.",
+		"init": false,
+		"value": 0,
+		"input": "button"
+    },
+    {
+        "link": {
+          "endpoint": 2,
+          "cluster": "042A_PM25",
+          "attribute": "0333_Custom"
+        },
+        "name": "Коррекция стрелки индикатора",
+        "type": "Integer",
+        "init": false,
+        "value": 0,
+        "minValue": -15,
+        "maxValue": 15,
+        "minStep": 1
+    }
+  ]
+}
