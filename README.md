@@ -1,5 +1,7 @@
 # EFEKTA-Open_PM_Monitor
 
+Описание: http://efektalab.com/Open_PM_Monitor
+
 Поблагодарить автора: https://yoomoney.ru/fundraise/P2XLTgJsB6k.231012
 
 Thank the author: https://yoomoney.ru/fundraise/P2XLTgJsB6k.231012
