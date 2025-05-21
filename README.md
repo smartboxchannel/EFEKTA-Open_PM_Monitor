@@ -10,4 +10,4 @@ Thank the author: https://yoomoney.ru/fundraise/P2XLTgJsB6k.231012
 
 Продажа DIY Устройств - https://t.me/diydevmart
 
-![EFEKTA Open PM Monitor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-Open_PM_Monitor/refs/heads/main/IMAGES/001.jpg)
+![EFEKTA Open PM Monitor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-Open_PM_Monitor/refs/heads/main/IMAGES/1.png)
