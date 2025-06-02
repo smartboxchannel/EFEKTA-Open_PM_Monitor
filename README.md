@@ -32,4 +32,4 @@ In addition to the arrow indication, there is an LED indication that visually di
 
 The sensor can be updated with new firmware versions over the air (OTA).
 
-
+![EFEKTA Open PM Monitor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-Open_PM_Monitor/refs/heads/main/IMAGES/image%20(3).png)
