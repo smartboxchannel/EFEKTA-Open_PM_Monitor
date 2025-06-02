@@ -17,3 +17,9 @@ Thank the author: https://yoomoney.ru/fundraise/P2XLTgJsB6k.231012
 Project of particle monitoring sensor (PM1.0, PM2.5, PM10, PM2.5 Index) with analog pointer display, Zigbee 3.0. The sensor is a network router.
 
 ![EFEKTA Open PM Monitor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-Open_PM_Monitor/refs/heads/main/IMAGES/123.png)
+
+Сенсор твердых частиц, помимо данных PM2.5, также измеряет PM1, PM10 и рассчитывает PM2.5 Index. Проект сделан на основе сенсора ASAIR APM10.
+
+The particle sensor, in addition to PM2.5 data, also measures PM1, PM10 and calculates PM2.5 Index. The project is based on the ASAIR APM10 sensor.
+
+
