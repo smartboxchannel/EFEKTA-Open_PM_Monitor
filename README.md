@@ -39,14 +39,32 @@ The sensor can be updated with new firmware versions over the air (OTA).
 
 - Identify - идентификация устройства
 
-State - включение/отключение подсветки
+- State - включение/отключение подсветки
 
-Brightness - яркость подсветки
+- Brightness - яркость подсветки
 
-Pm1 - уровень твердых частиц размером 1 мкм и менее
+- Pm1 - уровень твердых частиц размером 1 мкм и менее
 
-Pm2.5 - уровень твердых частиц размером 2.5 мкм и менее
+- Pm2.5 - уровень твердых частиц размером 2.5 мкм и менее
 
-Pm10 - уровень твердых частиц размером 10 мкм и менее
+- Pm10 - уровень твердых частиц размером 10 мкм и менее
 
-Aqi25 - индекс качества воздуха на основе PM2.5 (EPA)
+- Aqi25 - индекс качества воздуха на основе PM2.5 (EPA)
+
+## Basic data:
+
+- Identify - device identification
+
+- State - backlight on/off
+
+- Brightness - backlight brightness
+
+- Pm1 - particulate matter level of 1 µm or less
+
+- Pm2.5 - particulate matter level of 2.5 µm or less
+
+- Pm10 - particulate matter level of 10 µm or less
+
+- Aqi25 - air quality index based on PM2.5 (EPA)
+
+  
