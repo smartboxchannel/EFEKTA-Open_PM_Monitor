@@ -30,7 +30,7 @@ In addition to the arrow indication, there is an LED indication that visually di
 
 Датчик может обновляться новыми версиями прошивок по воздуху (OTA).
 
-The sensor can be updated with new firmware versions over the air (OTA).
+The sensor can be updated with new firmware versions over the air (OTA). ( https://github.com/koptserg/OTAClient )
 
 ![EFEKTA Open PM Monitor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-Open_PM_Monitor/refs/heads/main/IMAGES/image%20(3).png)
 
