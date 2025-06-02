@@ -108,4 +108,21 @@ To exit the network, hold the button for 10 seconds. The system LED on the back 
 
 You can also exit the network by deleting the sensor from z2m without the "force remove" option.
 
+Цветовая индикация 
+
+
+## Индекс качества воздуха на основе PM2.5:
+
+- < 120 - зелёный
+- ≥120 < 250 - жёлтый
+- ≥250 < 380 - розовый
+- ≥380 - красный
+
+- ## Air quality index based on PM2.5:
+
+- < 120 - green
+- ≥120 < 250 - yellow
+- ≥250 < 380 - pink
+- ≥380 - red
+
   
