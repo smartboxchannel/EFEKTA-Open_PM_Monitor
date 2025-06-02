@@ -22,4 +22,6 @@ Project of particle monitoring sensor (PM1.0, PM2.5, PM10, PM2.5 Index) with ana
 
 The particle sensor, in addition to PM2.5 data, also measures PM1, PM10 and calculates PM2.5 Index. The project is based on the ASAIR APM10 sensor.
 
+![EFEKTA Open PM Monitor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-Open_PM_Monitor/refs/heads/main/IMAGES/image (2).png)
+
 
