@@ -108,8 +108,8 @@ To exit the network, hold the button for 10 seconds. The system LED on the back 
 
 You can also exit the network by deleting the sensor from z2m without the "force remove" option.
 
-Цветовая индикация 
 
+# Цветовая индикация 
 
 ## Индекс качества воздуха на основе PM2.5:
 
