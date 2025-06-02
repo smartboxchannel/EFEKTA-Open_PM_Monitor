@@ -67,4 +67,8 @@ The sensor can be updated with new firmware versions over the air (OTA).
 
 - Aqi25 - air quality index based on PM2.5 (EPA)
 
+  ![EFEKTA Open PM Monitor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-Open_PM_Monitor/refs/heads/main/IMAGES/image%20(4).png)
+
+  ![EFEKTA Open PM Monitor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-Open_PM_Monitor/refs/heads/main/IMAGES/image%20(5).png)
+
   
