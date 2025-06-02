@@ -69,6 +69,14 @@ The sensor can be updated with new firmware versions over the air (OTA).
 
   ![EFEKTA Open PM Monitor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-Open_PM_Monitor/refs/heads/main/IMAGES/image%20(4).png)
 
+## Конфигурационные данные:
+
+- Indicator correction - подстройка стрелочного индикатора
+
+## Configuration data:
+
+- Indicator correction - adjustment of the arrow indicator
+
   ![EFEKTA Open PM Monitor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-Open_PM_Monitor/refs/heads/main/IMAGES/image%20(5).png)
 
   
