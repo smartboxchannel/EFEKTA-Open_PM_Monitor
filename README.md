@@ -28,6 +28,8 @@ The particle sensor, in addition to PM2.5 data, also measures PM1, PM10 and calc
 
 In addition to the arrow indication, there is an LED indication that visually displays the PM2.5 Index level. The brightness of the backlight LEDs can be adjusted remotely. The backlight can also be turned off remotely.
 
+## OTA
+
 Датчик может обновляться новыми версиями прошивок по воздуху (OTA).
 
 The sensor can be updated with new firmware versions over the air (OTA). 
