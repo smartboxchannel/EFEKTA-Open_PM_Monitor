@@ -33,3 +33,20 @@ In addition to the arrow indication, there is an LED indication that visually di
 The sensor can be updated with new firmware versions over the air (OTA).
 
 ![EFEKTA Open PM Monitor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-Open_PM_Monitor/refs/heads/main/IMAGES/image%20(3).png)
+
+## Основные данные:
+
+
+- Identify - идентификация устройства
+
+State - включение/отключение подсветки
+
+Brightness - яркость подсветки
+
+Pm1 - уровень твердых частиц размером 1 мкм и менее
+
+Pm2.5 - уровень твердых частиц размером 2.5 мкм и менее
+
+Pm10 - уровень твердых частиц размером 10 мкм и менее
+
+Aqi25 - индекс качества воздуха на основе PM2.5 (EPA)
