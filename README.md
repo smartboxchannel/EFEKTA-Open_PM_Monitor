@@ -129,4 +129,61 @@ You can also exit the network by deleting the sensor from z2m without the "force
 - ≥250 < 380 - pink
 - ≥380 - red
 
+
+# Обновление ПО (OTA):
+
+Прошивка устройства может быть обновлена. Если для датчика доступно обновление, то необходимо активировать загрузку обновления.
+
+## Если обновление еще не доступно в zigbee2mqtt
+
+Для добавления нового обновления в z2m в "ручную" необходимо:
+
+1. Загрузить в папку zigbee2mqtt файл обновления для датчика, пример /zigbee2mqtt/5678-1000-10063202.zigbee
+
+2. Создать файл ota_index.json с содержанием:
+
+[
+
+  {
+
+    "url": "5678-1000-10063202.zigbee"
+
+  }
+
+]
+
+3. Загрузить файл ota_index.json в папку zigbee2mqtt
+
+4. Перезагрузить zigbee2mqtt
+
+
+
+# Software update (OTA):
+
+The device firmware can be updated. If an update is available for the sensor, you must activate the update download.
+
+## If the update is not yet available in zigbee2mqtt
+
+To add a new update to z2m "manually" you need to:
+
+1. Upload the update file for the sensor to the zigbee2mqtt folder, example /zigbee2mqtt/5678-1000-10063202.zigbee
+
+2. Create the ota_index.json file with the content:
+
+[
+
+{
+
+"url": "5678-1000-10063202.zigbee"
+
+}
+
+]
+
+3. Upload the ota_index.json file to the zigbee2mqtt folder
+
+4. Restart zigbee2mqtt
+
+
+
   
