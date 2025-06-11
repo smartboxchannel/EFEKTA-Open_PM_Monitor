@@ -122,6 +122,10 @@ You can also exit the network by deleting the sensor from z2m without the "force
 - ≥250 < 380 - розовый
 - ≥380 - красный
 
+
+
+# Color indication
+
 ## Air quality index based on PM2.5:
 
 - < 120 - green
