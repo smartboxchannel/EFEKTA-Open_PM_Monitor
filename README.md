@@ -115,7 +115,7 @@ The sensor can be updated with new firmware versions over the air (OTA).
 
 - Invert color - inverting the OLED display
 
-  ![EFEKTA Open PM Monitor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-Open_PM_Monitor/refs/heads/main/IMAGES/image%20(5).png)
+  ![EFEKTA Open PM Monitor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-Open_PM_Monitor/refs/heads/main/IMAGES/image51.png)
 
 ## Ввод датчика в сеть, выход из сети
 
