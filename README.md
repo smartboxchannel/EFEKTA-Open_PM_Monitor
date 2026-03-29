@@ -55,6 +55,12 @@ The sensor can be updated with new firmware versions over the air (OTA).
 
 - Aqi25 - индекс качества воздуха на основе PM2.5 (EPA)
 
+- Tvoc - уровень летучих органических соединений
+
+- eCO2 - уровень эквивалента углекислого газа
+
+- AQI - уровень загрязнения воздуха
+
 ## Basic data:
 
 - Identify - device identification
@@ -71,15 +77,25 @@ The sensor can be updated with new firmware versions over the air (OTA).
 
 - Aqi25 - air quality index based on PM2.5 (EPA)
 
+- Tvoc - Volatile Organic Compounds (VOC)
+
+- eCO2 - Carbon Dioxide Equivalent (CO2)
+
+- AQI - Air Quality Index (AQI)
+
   ![EFEKTA Open PM Monitor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-Open_PM_Monitor/refs/heads/main/IMAGES/image%20(4).png)
 
 ## Конфигурационные данные:
 
 - Indicator correction - подстройка стрелочного индикатора
 
+- Invert color - инвертирование oled дисплея
+
 ## Configuration data:
 
 - Indicator correction - adjustment of the arrow indicator
+
+- Invert color - inverting the OLED display
 
   ![EFEKTA Open PM Monitor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-Open_PM_Monitor/refs/heads/main/IMAGES/image%20(5).png)
 
