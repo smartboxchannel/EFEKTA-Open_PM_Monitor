@@ -34,6 +34,10 @@ In addition to the arrow indication, there is an LED indication that visually di
 
 ![EFEKTA Open PM Monitor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-Open_PM_Monitor/refs/heads/main/IMAGES/330.png)
 
+В обновленную версию добавлен oled дисплей и сенсор ENS160 (TVOC, eCO2, AQI)
+
+The updated version includes an OLED display and an ENS160 sensor (TVOC, eCO2, AQI)
+
 ## OTA
 
 Датчик может обновляться новыми версиями прошивок по воздуху (OTA).
