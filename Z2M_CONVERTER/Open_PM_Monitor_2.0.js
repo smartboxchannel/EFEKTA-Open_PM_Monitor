@@ -71,7 +71,7 @@ const definition = {
             }),
             numeric({
                 name: "tvoc",
-                unit: "ppm",
+                unit: "ppb",
                 cluster: "genAnalogInput",
                 attribute: "presentValue",
                 description: "TVOC",
