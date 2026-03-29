@@ -12,9 +12,9 @@ Thank the author: https://yoomoney.ru/fundraise/P2XLTgJsB6k.231012
 
 ![EFEKTA Open PM Monitor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-Open_PM_Monitor/refs/heads/main/IMAGES/1.png)
 
-Проект датчика мониторинга твердых частиц (PM1.0, PM2.5, PM10, PM2.5 Index) с аналоговым стрелочным дисплеем, Zigbee 3.0. Датчик является роутером сети.
+Проект датчика мониторинга твердых частиц (PM1.0, PM2.5, PM10, PM2.5 Index, (с версии 2.0 TVOC, eCO2, AQI)) с аналоговым стрелочным дисплеем, Zigbee 3.0. Датчик является роутером сети.
 
-Project of particle monitoring sensor (PM1.0, PM2.5, PM10, PM2.5 Index) with analog pointer display, Zigbee 3.0. The sensor is a network router.
+Project of particle monitoring sensor (PM1.0, PM2.5, PM10, PM2.5 Index, (from version 2.0 TVOC, eCO2, AQI)) with analog pointer display, Zigbee 3.0. The sensor is a network router.
 
 ![EFEKTA Open PM Monitor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-Open_PM_Monitor/refs/heads/main/IMAGES/123.png)
 
