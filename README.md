@@ -40,9 +40,9 @@ The updated version includes an OLED display and an ENS160 sensor (TVOC, eCO2, A
 
 ![EFEKTA Open PM Monitor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-Open_PM_Monitor/refs/heads/main/IMAGES/340.jpg)
 
-Добавлена поддержка альтернативного датчика PM того же производителя  - APM2000. В ПО реализовано атоматическое делектирование подключенного сенсора PM.
+Добавлена поддержка альтернативного датчика PM того же производителя  - APM2000. В ПО реализовано атоматическое детектирование подключенного сенсора PM.
 
-Added support for an alternative PM sensor from the same manufacturer—the APM2000. The software now automatically deletes the connected PM sensor.
+Added support for an alternative PM sensor from the same manufacturer—the APM2000. The software implements automatic detection of the connected PM sensor.
 
 ![EFEKTA Open PM Monitor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-Open_PM_Monitor/refs/heads/main/IMAGES/331.png)
 
