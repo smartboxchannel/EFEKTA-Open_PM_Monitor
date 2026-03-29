@@ -34,13 +34,13 @@ In addition to the arrow indication, there is an LED indication that visually di
 
 ![EFEKTA Open PM Monitor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-Open_PM_Monitor/refs/heads/main/IMAGES/330.png)
 
-В обновленную версию добавлен oled дисплей и сенсор ENS160 (TVOC, eCO2, AQI). Реализовано автоматическое детектирование наличия дисплея и сенсора ENS160, если не подключено что то из этого, работа с дисплеем или сенсором пропускается в ПО.
+В обновленную версию добавлен oled дисплей и сенсор ENS160 (TVOC, eCO2, AQI). Реализовано автоматическое детектирование наличия дисплея и сенсора ENS160, если не подключено что то из этого, работа с дисплеем или сенсором пропускается в ПО. Если подключен сенсор ENS160, на дисплее поочередно выводятся данные PM2.5, TVOC, eCO2. Если сенсор не подключен то выводятся толко данные PM2.5
 
-The updated version includes an OLED display and an ENS160 sensor (TVOC, eCO2, AQI). Automatic detection of the presence of the ENS160 display and sensor has been implemented. If neither of these is connected, operation with the display or sensor is skipped in the software.
+The updated version includes an OLED display and an ENS160 sensor (TVOC, eCO2, AQI). Automatic detection of the presence of the ENS160 display and sensor has been implemented. If neither of these is connected, operation with the display or sensor is skipped in the software. If the ENS160 sensor is connected, the display alternates between PM2.5, TVOC, and eCO2. If the sensor is not connected, only PM2.5 data is displayed.
 
 ![EFEKTA Open PM Monitor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-Open_PM_Monitor/refs/heads/main/IMAGES/340.jpg)
 
-Добавлена поддержка альтернативного датчика PM того же производителя  - APM2000. В ПО реализовано атоматическое делектирпованиеподключенного сенсора PM.
+Добавлена поддержка альтернативного датчика PM того же производителя  - APM2000. В ПО реализовано атоматическое делектирование подключенного сенсора PM.
 
 Added support for an alternative PM sensor from the same manufacturer—the APM2000. The software now automatically deletes the connected PM sensor.
 
